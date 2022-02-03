@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url(<style>
+@import url('https://fonts.googleapis.com/css2? family= Passion+One:wght@700 & family= Sriracha & display=swap');
+</style>);
+
+@import url(@import url('https://fonts.googleapis.com/css2? family= Passion+One:wght@700 & display=swap');
+</style>);
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3  'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vh;
+
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: rgb(0, 225, 255);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, fooster a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh ;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 4.5vh;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: #000000;
+    color: white;
+     box-shadow: inset 6px 6px 13px 0px black;
+     background-size: cover;
+     background-attachment: fixed;
+
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: black;
+    text-shadow: 1px 1px 0px black;
+    background-size: cover;
+}
+
+section#img01 {
+    background-image: url('../d012/imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+
+}
+
+section#img02 {
+    background-image: url('../d012/imagens/background002.jpg');
+    background-size: cover;
+
+}
+
+
+fooster {
+    background-color: rgb(199, 27, 27);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
